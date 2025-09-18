@@ -27,6 +27,9 @@ const Navbar = () => {
 
         {/* Menu */}
         <div className="flex gap-6">
+          <Link href="/" className="hover:text-gray-200 transition">
+            Home
+          </Link>
           <Link href="/about" className="hover:text-gray-200 transition">
             About
           </Link>

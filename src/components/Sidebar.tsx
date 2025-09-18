@@ -6,7 +6,7 @@ const Sidebar = () => {
   return (
     <div className="flex">
       {/* Sidebar */}
-      <div className="bg-gray-800 text-white h-screen p-5 w-[150px]">
+      <div className="bg-gray-800 text-white h-screen p-5 w-[300px] pt-10 ps-10">
         
 
         <nav className="flex flex-col gap-4">
