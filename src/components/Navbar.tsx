@@ -17,6 +17,12 @@ const Navbar = () => {
           <Link href="/contact" className="hover:text-gray-200 transition">
             Contact
           </Link>
+          <Link href="/blog" className="hover:text-gray-200 transition">
+            Blog
+          </Link>
+          <Link href="/dashboard" className="hover:text-gray-200 transition">
+            Dashboard
+          </Link>
           <Link href="/login" className="hover:text-gray-200 transition">
             Login
           </Link>
