@@ -9,6 +9,22 @@ const Navbar = () => {
           NextJS
         </Link>
 
+      {/* Search Bar */}
+        <form className="ml-6 flex items-center bg-white rounded-lg overflow-hidden">
+          <input
+            type="text"
+            placeholder="Search..."
+            className="px-3 py-1 text-gray-800 outline-none w-40 sm:w-56"
+          />
+          <button
+            type="submit"
+            className="px-3 py-1 bg-blue-400 text-black font-medium hover:bg-fuchsia-400 transition"
+          >
+            Search
+          </button>
+        </form>
+
+
         {/* Menu */}
         <div className="flex gap-6">
           <Link href="/about" className="hover:text-gray-200 transition">
