@@ -1,6 +1,10 @@
 import Image from "next/image";
 import DImage from "../../../assets/cld-sample-4.jpeg";
-
+import { Metadata } from "next";
+export const metadata: Metadata = {
+    title: "Gallery",
+    description: "This is Gallery"
+}
 const GalleryPage = () => {
     return (
         <div>
