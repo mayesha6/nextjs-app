@@ -2,7 +2,7 @@
   "blogs": [
     {
       "id": "1",
-      "title": "Getting Started with React",
+      "title": "Getting Started with Reacttt",
       "author": "Soumy",
       "content": "React is a JavaScript library for building user interfaces. In this post, we will explore the basics of React and how to get started.",
       "tags": ["React", "JavaScript", "Frontend"],
