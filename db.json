@@ -1,0 +1,31 @@
+{
+  "blogs": [
+    {
+      "id": "1",
+      "title": "Getting Started with React",
+      "author": "Soumy",
+      "content": "React is a JavaScript library for building user interfaces. In this post, we will explore the basics of React and how to get started.",
+      "tags": ["React", "JavaScript", "Frontend"],
+      "views": 150,
+      "createdAt": "2025-09-20T07:00:00Z"
+    },
+    {
+      "id": "2",
+      "title": "Understanding Node.js",
+      "author": "Mayesha",
+      "content": "Node.js allows you to run JavaScript on the server. This blog explains its event-driven architecture and use cases.",
+      "tags": ["Node.js", "Backend", "JavaScript"],
+      "views": 230,
+      "createdAt": "2025-09-19T10:30:00Z"
+    },
+    {
+      "id": "3",
+      "title": "Mastering CSS Grid",
+      "author": "Soumy",
+      "content": "CSS Grid makes creating complex layouts easier. Learn how to use rows, columns, and responsive techniques effectively.",
+      "tags": ["CSS", "Web Design", "Frontend"],
+      "views": 320,
+      "createdAt": "2025-09-18T14:15:00Z"
+    }
+  ]
+}
