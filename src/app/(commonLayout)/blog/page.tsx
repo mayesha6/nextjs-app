@@ -4,9 +4,10 @@ import { IBlog } from "@/type";
 const BlogPage = async () => {
   const res = await fetch("http://localhost:3004/blogs", {
     // cache: "force-cache",
-    next:{
-        revalidate:5
-    }
+    cache: "no-store",
+    // next:{
+    //     revalidate:5
+    // }
   });
   const blogs = await res.json();
   // console.log(blogs)
